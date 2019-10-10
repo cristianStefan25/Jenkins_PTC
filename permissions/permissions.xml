@@ -993,6 +993,32 @@
                 <RunTimeInstancePermissions></RunTimeInstancePermissions>
             </Entity>
             <Entity
+             name="FTPServer"
+             type="ThingTemplate">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+                <VisibilityInstancePermissions>
+                    <Visibility></Visibility>
+                </VisibilityInstancePermissions>
+                <DesignTimeInstancePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimeInstancePermissions>
+                <RunTimeInstancePermissions></RunTimeInstancePermissions>
+            </Entity>
+            <Entity
              name="CrewRoverTemplate"
              type="ThingTemplate">
                 <VisibilityPermissions>
